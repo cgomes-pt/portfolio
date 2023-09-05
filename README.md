@@ -7,5 +7,4 @@
 	- Shape Divider
 
  You can check here:
- https://github.com/cgomes-pt/portfolio
- 
+https://cgomes-pt.github.io/portfolio/ 
