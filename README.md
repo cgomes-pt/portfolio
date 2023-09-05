@@ -5,3 +5,6 @@
 	- Tailwind
 	- Framer Motion
 	- Shape Divider
+
+ You can check here:
+https://cgomes-pt.github.io/portfolio/ 
