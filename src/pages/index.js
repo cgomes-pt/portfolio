@@ -18,7 +18,7 @@ export default function Home() {
 					</div>
 				</div>
 				<div>
-					<Image src="/panda.png" alt="Panda" width={300} height={200} className='me-20' />
+					<Image src="./panda.png" alt="Panda" width={300} height={200} className='me-20' />
 				</div>
 
 			</div>
