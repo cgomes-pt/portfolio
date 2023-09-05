@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+      --secondary-glow: conic-gradient(
+        from 10deg at 50% 50%,
+        #eb7494 0deg,
+        #ae77b2 55deg,
+        #97b5da 120deg,
+        #365964 160deg,
+        transparent 360deg
+      );
+    
+      --third-glow: conic-gradient(
+        from 90deg at 50% 50%,
+        #7092d1 0deg,
+        #ac4d6f 160deg,
+        #7ed2da 120deg,
+        #8bdce0 55deg,
+        transparent 360deg
+      );
+}
+
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+  
+  width: 100%;
+ 
+  background-image: linear-gradient(rgba(131, 69, 69, 0.05) .1em, transparent .100em), linear-gradient(90deg, rgba(131, 69, 69, 0.05) .1em, transparent .100em);
+  background-size: 5em 5em;
+  
+}
+
+.custom-shape-divider-bottom-1693406960 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1693406960 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 158px;
+}
+
+.custom-shape-divider-bottom-1693406960 .shape-fill {
+  fill: #ff8c00;
+}
+
+.custom-shape-divider-bottom-1693493998 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1693493998 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 58px;
+}
+
+.custom-shape-divider-bottom-1693493998 .shape-fill {
+  fill: #252525;
+}
+
+.custom-div-bg-color {
+  background-color: #ecf0f1;
+}
+
+
+.cursor {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999; 
+}
+
+.slide-in {
+  position: absolute;
+  background-color: #252525;
+
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100vh;
+  transform-origin: bottom;
+}
+
+.slide-out {
+  position: absolute;
+  background-color: #252525;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100vh;
+  transform-origin: top;
+}
