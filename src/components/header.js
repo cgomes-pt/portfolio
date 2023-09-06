@@ -4,10 +4,13 @@ import Image from 'next/image'
 const Header = () => {
     return (
         <div className='flex justify-between items-center mx-20 my-10'>
-            <Link href='./'> <Image src = "./logo.svg" alt="logo" width={80} height={105}/> </Link>
+            <Image src = "./logo.svg" alt="logo" width={80} height={105}/>
             
             <nav>
                 <ul className='flex justify-between'>
+                    <li className='m-5'>
+                        <Link className="hover:underline font-semibold text-zinc-900" href="/">Home</Link>
+                    </li>
                     <li className='m-5'>
                         <Link className="hover:underline font-semibold text-zinc-900" href="/aboutme">About me</Link>
                     </li>
